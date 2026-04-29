@@ -194,7 +194,7 @@ uint8_t getBrightnessForPrintTime(uint32_t thisTime, bool ONflag)     // опр�
 }
 
 
-void drawLetter(uint8_t letter, int8_t offset, CRGB letterColor)
+void drawLetter(uint8_t letter, int16_t offset, CRGB letterColor)
 {
  
   uint8_t start_pos = 0, finish_pos = LET_WIDTH;
